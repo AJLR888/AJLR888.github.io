@@ -4,7 +4,7 @@ title: "House Price Prediction"
 date: December 2023
 img: housePrice.jpg
 alt: "House price predictions"
-url: https://www.google.com
+url: projects/INM431-Coursework.pdf
 description: This project explores whether basic housing features can accurately predict property prices by comparing two fundamental machine learning approaches, Linear Regression against Decision Tree Regression.
 ---
 
