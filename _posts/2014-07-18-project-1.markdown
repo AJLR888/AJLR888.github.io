@@ -3,9 +3,8 @@ layout: default
 modal-id: 1
 date: 2014-07-18
 img: housePrice.jpg
-alt: image-alt
+alt: "House price predictions"
 project-date: December 2023
-code: d
 category: Machine Learning
 description: This project explores whether basic housing features can accurately predict property prices by comparing two fundamental machine learning approaches. The research contrasts Linear Regression against Decision Tree Regression models using essential variables that every home contains - kitchen dimensions, living room space, total built area, and similar fundamental attributes.
 ---
