@@ -5,6 +5,6 @@ date: December 2023
 img: housePrice.jpg
 alt: "House price predictions"
 url: /projects/INM431-Coursework.pdf
-description: This project explores whether basic housing features can accurately predict property prices by comparing two fundamental machine learning approaches. The research contrasts Linear Regression against Decision Tree Regression models using essential variables that every home contains - kitchen dimensions, living room space, total built area, and similar fundamental attributes.
+description: This project explores whether basic housing features can accurately predict property prices by comparing two fundamental machine learning approaches, Linear Regression against Decision Tree Regression models.
 ---
 
