@@ -67,3 +67,7 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+# For projects
+include:
+  - projects
