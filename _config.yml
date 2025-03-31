@@ -1,5 +1,5 @@
 # Site settings
-title: Antonio Lopez
+title: Antonio Jose Lopez Roldan
 email: roldan.analytics@gmail.com
 url: https://AJLR888.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
@@ -14,8 +14,6 @@ google_verify:
 bing_verify:
 
 # Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
 contact: plain
 
@@ -56,7 +54,7 @@ address:
   - line: 
 
 # Credits content
-credits: '<a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: '<a href="http://startbootstrap.com">Start Bootstrap</a>'
 
 # Build settings
 markdown: kramdown
