@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: housePrice.jpeg
+img: housePrice.jpg
 alt: image-alt
 project-date: December 2023
 client: University Cursework
