@@ -1,3 +1,7 @@
 ---
 layout: style
 ---
+
+.name {
+  text-transform: none !important;
+}
