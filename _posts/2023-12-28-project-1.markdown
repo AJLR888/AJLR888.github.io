@@ -5,6 +5,8 @@ date: December 2023
 img: house-price-prediction.png
 alt: "House price predictions"
 description: This project explores whether basic housing features can accurately predict property prices by comparing two fundamental machine learning approaches, Linear Regression against Decision Tree Regression.
-permalink: /projects/IMN431-MATLABCode.pdf
 ---
 
+<a href="/projects/IMN431-MATLABCode.pdf" target="_blank">
+  <img src="/img/portfolio/project1.png" alt="Open PDF">
+</a>
