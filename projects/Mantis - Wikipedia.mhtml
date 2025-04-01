@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Antonio Jose Lopez Roldan</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+  <meta name="keywords" content="your keywords, separated by commas" />
+  
+  <meta name="author" content="LastName FirstName">
+  <link rel="canonical" href="https://AJLR888.github.io/projects/Mantis - Wikipedia.mhtml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
+
+  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google verification -->
+  
+
+  <!-- Bing Verification -->
+  
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href=" css/font-awesome/css/all.min.css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body id="page-top" class="index">
+  <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#page-top">Antonio Jose Lopez Roldan</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li class="page-scroll">
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li class="page-scroll">
+          <a href="#about">About</a>
+        </li>
+        <li class="page-scroll">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+  <!-- Header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
+        <div class="intro-text">
+          <span class="name">Antonio Jose Lopez Roldan</span>
+          <hr class="star-light" />
+          <span class="skills">Economist - Data Scientist - Data Analyst</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Portfolio Grid Section -->
+<section id="portfolio">
+  <div class="container portfolio-flex-grid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Portfolio</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="portfolio-flex-row">
+      
+       <div class="portfolio-flex-item portfolio-item">
+        <a href="/projects/Mantis - Wikipedia.mhtml" class="portfolio-link" target="_blank">
+          <div class="caption">
+            <div class="caption-content">
+              <h4>Dec 2023</h4>
+              <p>This project explores whether basic housing features can accurately predict property prices by comparing two fundamental machine learning approaches, Linear Regression against Decision Tree Regression.</p>
+              <span class="btn">See Details</span>
+            </div>
+          </div>
+          <img src="img/portfolio/housePrice.jpg" class="img-responsive" alt="House price predictions">
+        </a>
+       </div>
+      
+    </div>
+  </div>
+</section>
+
+  <!-- About Section -->
+<section class="success" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>About</h2>
+        <hr class="star-light">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <div style="text-align: justify; text-indent: 4em;">
+          <p>
+            With a recently completed Master's in Data Science from City, University of London—earned with distinction—he brings together academic excellence and practical experience in data analytics
+          </p>
+          <p>
+            For his dissertation, he handled a dataset of over 400,000 records using Google Colab while carefully applying the same step-by-step process to 24 models using Python. This work showed his 
+            skill with data analysis, feature selection, and engineering. Importantly, his research followed international regulatory frameworks and risk management best practices, including CRE36 and IRB standards.
+          </p>
+          <p>
+            In his professional life, he thrives in fast-paced environments where his problem-solving abilities stand out. His flexibility is clear from his previous position, where he moved easily 
+            between three different roles across different markets, while managing five weekly projects and three daily tasks. This exceptional work capacity led to impressive results, exceeding 
+            assigned targets by seventeen times. Colleagues consistently describe him as an outstanding team player, highlighting his resourcefulness and communication skills.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Contact Me</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-left">
+        <p><strong>Email:</strong> <a href="mailto:roldan.analytics@gmail.com">roldan.analytics@gmail.com</a></p>
+        <p><strong>Phone:</strong> +44 07395 620149</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/roldananalytics" target="_blank">linkedin.com/in/roldananalytics</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/AJLR888" target="_blank">github.com/AJLR888</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+<footer class="text-center">
+  <div class="footer-above">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-4">
+          <h3>Location</h3>
+          <p>
+            
+            United Kingdom <br>
+            
+             <br>
+            
+          </p>
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>Around the Web</h3>
+          <ul class="list-inline">
+            
+            <li>
+              <a href="" class="btn-social btn-outline"><i
+                  class="fa-brands fa-fw fa-twitter"></i></a>
+            </li>
+            
+            <li>
+              <a href="" class="btn-social btn-outline"><i
+                  class="fa-brands fa-fw fa-facebook"></i></a>
+            </li>
+            
+            <li>
+              <a href="" class="btn-social btn-outline"><i
+                  class="fa-brands fa-fw fa-stack-overflow"></i></a>
+            </li>
+            
+            <li>
+              <a href="" class="btn-social btn-outline"><i
+                  class="fa-brands fa-fw fa-bitbucket"></i></a>
+            </li>
+            
+            <li>
+              <a href="" class="btn-social btn-outline"><i
+                  class="fa-brands fa-fw fa-github"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>Credits</h3>
+          <p><a href="http://startbootstrap.com">Start Bootstrap</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          Copyright &copy; Antonio Jose Lopez Roldan 2025
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visible-sm">
+  <a class="btn btn-primary" href="#page-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
+
+
+  <!-- jQuery Version 1.11.0 -->
+<script src=" js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src=" js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src=" js/jquery.easing.min.js"></script>
+<script src=" js/classie.js"></script>
+<script src=" js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src=" js/jqBootstrapValidation.js"></script>
+
+<script src=" js/contact_me.js"></script>
+
+
+<!-- Custom Theme JavaScript -->
+<script src=" js/freelancer.js"></script>
+
+
+
+</body>
+
+</html>
