@@ -7,8 +7,6 @@ alt: "House price predictions"
 description: This project explores whether basic housing features can accurately predict property prices by comparing two fundamental machine learning approaches, Linear Regression against Decision Tree Regression.
 ---
 
-<h2>House Price Prediction</h2>
-
 <a href="/projects/INM431-Coursework.pdf" target="_blank">
   <img src="/img/portfolio/project1.png" alt="Open PDF">
 </a>
