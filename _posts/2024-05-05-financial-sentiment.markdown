@@ -13,4 +13,3 @@ link: /projects/financial-sentiment-analysis.html
 <a href="/projects/financial-sentiment-analysis.html" target="_blank">
   <img src="/img/portfolio/IMDb-sentiment.png" alt="Open PDF">
 </a>
-
