@@ -1,0 +1,2587 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="IMN431-MATLABCode%20(1)_files/filelist.xml">
+<link rel=Edit-Time-Data href="IMN431-MATLABCode%20(1)_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Microsoft Word - Document1</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Antonio Jose Lopez Roldan</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Antonio Jose Lopez Roldan</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2025-04-01T09:36:00Z</o:Created>
+  <o:LastSaved>2025-04-01T09:36:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>1169</o:Words>
+  <o:Characters>6667</o:Characters>
+  <o:Lines>55</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7821</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="IMN431-MATLABCode%20(1)_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="IMN431-MATLABCode%20(1)_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:DoNotOptimizeForBrowser/>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1040178053 9 0 511 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:Calibri;
+	color:black;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:12.0pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:69.4pt 115.25pt 70.35pt 93.6pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1030"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-GB style='tab-interval:36.0pt;word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%<span
+style='mso-spacerun:yes'>                                   </span>Note:</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Note 1:<span style='mso-spacerun:yes'>   </span>Dependent <span class=SpellE>varaible</span>
+= <span class=SpellE>ResponseVar</span> = <span class=SpellE>SalePrice</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%--------------------------------------------------------------------------</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Note 2:<span style='mso-spacerun:yes'>   </span><span class=SpellE><span
+class=GramE>lrmPred</span></span><span class=GramE><span
+style='mso-spacerun:yes'>  </span>=</span> Linear Regression Model, Prediction
+of Y (<span class=SpellE>SalePrice</span>)</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%<span
+style='mso-spacerun:yes'>           </span><span class=SpellE><span
+class=GramE>lrmTest</span></span><span class=GramE><span
+style='mso-spacerun:yes'>  </span>=</span> Linear Regression Model, Test Data.</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%<span
+style='mso-spacerun:yes'>           </span><span class=SpellE>lrmTrain</span> =
+Linear Regression Model, Train Data</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+-------------------------------------------------------------------------</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Note 3:<span style='mso-spacerun:yes'>   </span><span class=SpellE><span
+class=GramE>dtmPred</span></span><span class=GramE><span
+style='mso-spacerun:yes'>  </span>=</span> Decision Tree Model, Prediction of Y
+(<span class=SpellE>SalePrice</span>)</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%<span
+style='mso-spacerun:yes'>           </span><span class=SpellE><span
+class=GramE>dtmTest</span></span><span class=GramE><span
+style='mso-spacerun:yes'>  </span>=</span> Linear Regression Model, Test Data.</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%<span
+style='mso-spacerun:yes'>           </span><span class=SpellE>dtmTrain</span> =
+Linear Regression Model, Train Data.</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:129.15pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%<span
+style='mso-spacerun:yes'>                           </span>Load the data set</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> houses = <span
+class=SpellE>readtable</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'houses.csv'</span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%<span
+style='mso-spacerun:yes'>         </span>Partition the data set into Train and
+Test<span style='mso-spacerun:yes'>                 </span>%%</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+For reproducibility, to reproduce always the same results.</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>rng</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'default'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>) </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:139.65pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Partition the data set, reserve 30% for testing</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> c = <span class=SpellE>cvpartition</span>(height(houses),
+</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;
+font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+color:#A709F5'>&quot;holdout&quot;</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, 0.3<span class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Split the data</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:222.45pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>trainData</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> =
+houses(training(c), :); <span class=SpellE>testData</span> = houses(test(c), <span
+class=GramE>:);</span><span style='mso-spacerun:yes'>  </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+<span class=GramE>Lets</span> ignore the &quot;Id&quot; column:</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>Train = <span
+class=SpellE><span class=GramE>removevars</span></span><span class=GramE>(</span><span
+class=SpellE>trainData</span>, </span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Id'</span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>Test = <span
+class=SpellE><span class=GramE>removevars</span></span><span class=GramE>(</span><span
+class=SpellE>testData</span>, </span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Id'</span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%<span
+style='mso-spacerun:yes'>                      </span>LINEAR REGRESSION <span
+class=GramE>MODEL<span style='mso-spacerun:yes'>  </span>(<span class=SpellE>lrm</span>)<span
+style='mso-spacerun:yes'>   </span></span><span
+style='mso-spacerun:yes'>                </span>%%</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'>  </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:51.7pt;margin-bottom:
+.15pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Train the model</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> <span class=SpellE>lrm</span> = <span class=SpellE><span
+class=GramE>fitlm</span></span><span class=GramE>(</span>Train, </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>PredictorVars</span><span class=GramE>&quot;<span
+style='color:black'>,[</span></span>&quot;<span class=SpellE>totalBath</span>&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>BedroomAbvGr</span>&quot;</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>KitchenAbvGr</span>&quot;</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;Fireplaces&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>GarageCars</span>&quot;</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>totalSpcBlt_standardized</span>&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>LotArea_standardized</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>GrLivArea_normalized</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_BrkSide</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_ClearCr</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_CollgCr</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_Crawfor</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_Edwards</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_Gilbert</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_IDOTRR</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_MeadowV</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_Mitchel</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_NAmes</span>&quot;</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_NPkVill</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_NWAmes</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_NoRidge</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_NridgHt</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_OldTown</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_SWISU</span>&quot;</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_Sawyer</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_SawyerW</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_Somerst</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_StoneBr</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_Timber</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>Neighborhood_Veenker</span>&quot;</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;BsmtFinType1_BLQ&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;BsmtFinType1_GLQ&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;BsmtFinType1_LwQ&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#0E00FF'>...</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:41.5pt;margin-bottom:
+.15pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;BsmtFinType1_Rec&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;BsmtFinType1_Unf&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>], </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>ResponseVar</span>&quot;</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>SalePrice</span>&quot;</span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'>  </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:227.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+<span class=SpellE>Grahp</span> for the <span class=SpellE>lrm</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> <span
+class=SpellE>plotAdded</span>(<span class=SpellE>lrm</span>) </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%
+Evaluate the Lineal Regression Training Model, metrics:</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>yTrain</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=SpellE>Train.<span class=GramE>SalePrice</span></span><span class=GramE>;</span>
+</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>lrmPredTrain</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=GramE>predict(</span><span class=SpellE>lrm</span>, Train<span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:160.4pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=SpellE>lrmTrainMAE</span> = <span
+class=GramE>mean(abs(</span><span class=SpellE>yTrain</span> - <span
+class=SpellE>lrmPredTrain</span>)<span class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>lrmTrainRMSE</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=GramE>sqrt(mean(</span>(<span class=SpellE>yTrain</span> - <span
+class=SpellE>lrmPredTrain</span><span class=GramE>).^</span>2)<span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>lrmTrainRSquared</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=SpellE><span class=GramE>lrm.Rsquared.Ordinary</span></span>; </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Plot residuals</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>residuals = <span
+class=SpellE>yTrain</span> - <span class=SpellE><span class=GramE>lrmPredTrain</span></span><span
+class=GramE>;</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:361.85pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=GramE>figure;</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:139.75pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>scatter(</span></span><span
+class=SpellE><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:
+104%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>lrmPredTrain</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>,
+residuals); <span class=SpellE><span class=GramE>xlabel</span></span><span
+class=GramE>(</span></span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Predicted Train Values'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>ylabel</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Residuals'</span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>title(</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(<span class=SpellE>lrm</span>)Residuals
+vs Predicted Train Values'</span><span class=GramE><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Adding horizontal line at zero:</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>hold </span><span
+class=GramE><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:
+104%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+color:#A709F5'>on</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>;</span></span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>plot([min(<span
+class=SpellE>lrmPredTrain</span>), max(<span class=SpellE>lrmPredTrain</span>)],
+[0, 0], </span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'k--'</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>); hold </span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>off</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>;</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%
+Evaluate the Linear Regression Test Model, metrics:</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>yTest</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=SpellE>Test.<span class=GramE>SalePrice</span></span><span class=GramE>;</span>
+</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:232.75pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=SpellE>lrmPredTest</span> = <span
+class=GramE>predict(</span><span class=SpellE>lrm</span>, Test<span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>lrmTestMAE</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=GramE>mean(abs(</span><span class=SpellE>yTest</span> - <span
+class=SpellE>lrmPredTest</span>)<span class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>lrmTestRMSE</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=GramE>sqrt(mean(</span>(<span class=SpellE>yTest</span> - <span
+class=SpellE>lrmPredTest</span><span class=GramE>).^</span>2)<span class=GramE>);</span>
+</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:124.35pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=SpellE>lrmTest_SSres</span> = <span
+class=GramE>sum(</span>(<span class=SpellE>yTest</span> - <span class=SpellE>lrmPredTest</span><span
+class=GramE>).^</span>2); <span class=SpellE>lrmTest_SStot</span> = <span
+class=GramE>sum(</span>(<span class=SpellE>yTest</span> - mean(<span
+class=SpellE>yTest</span>)<span class=GramE>).^</span>2); <span class=SpellE>lrmTestRSquared</span>
+= 1 - (<span class=SpellE>lrmTest_SSres</span> / <span class=SpellE>lrmTest_SStot</span><span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Plot residuals</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>residuals = <span
+class=SpellE>yTest</span> - <span class=SpellE><span class=GramE>lrmPredTest</span></span><span
+class=GramE>;</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:361.85pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=GramE>figure;</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:144.9pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>scatter(</span></span><span
+class=SpellE><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:
+104%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>lrmPredTest</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>,
+residuals); <span class=SpellE><span class=GramE>xlabel</span></span><span
+class=GramE>(</span></span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Predicted Test Values'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>ylabel</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Residuals'</span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>title(</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(<span class=SpellE>lrm</span>)Residuals
+vs Predicted Test Values'</span><span class=GramE><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Adding horizontal line at zero:</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>hold </span><span
+class=GramE><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:
+104%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+color:#A709F5'>on</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>;</span></span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>plot([min(<span
+class=SpellE>lrmPredTest</span>), max(<span class=SpellE>lrmPredTest</span>)],
+[0, 0], </span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'k--'</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>); hold </span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>off</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>;</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%
+Linear Regression Print Results:</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.25pt;margin-bottom:
+.15pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+class=SpellE><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:
+104%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>fprintf</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;===============================================\n&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>&quot;Linear Regression Model, Train Vs Test
+Results:\n&quot;</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;-----------------------------------------------\n&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'(Train) Mean Absolute Error: %.3f\n'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, <span
+class=SpellE>lrmTrainMAE</span>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(Test)
+Mean Absolute Error: %.3f\n'</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>, <span class=SpellE>lrmTestMAE</span>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;-----------------------------------------------\n&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'(Train) Root Mean Squared Error: %.3f\n'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, <span
+class=SpellE>lrmTrainRMSE</span>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(Test)
+Root Mean Squared Error: %.3f\n'</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>, <span class=SpellE>lrmTestRMSE</span>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>&quot;-----------------------------------------------\n&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'(Train) R-squared: %.3f\n'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, <span
+class=SpellE>lrmTrainRSquared</span>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(Test)
+R-squared: %.3f\n'</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>, <span class=SpellE>lrmTestRSquared</span>); </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%<span
+style='mso-spacerun:yes'>                      </span>DECISION TREE MODEL (<span
+class=SpellE>dtm</span>)</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Train the model, we define the splits and the <span class=SpellE>leafs</span>.</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>dtm</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=SpellE><span class=GramE>fitrtree</span></span><span class=GramE>(</span>Train,</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;<span
+class=SpellE>SalePrice</span>&quot;</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>'<span class=SpellE>MaxNumSplits</span>'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, 99, </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'MinLeafSize'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>,8<span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:253.2pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Graph for the <span class=SpellE>dtm</span></span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> <span class=GramE>view(</span><span
+class=SpellE>dtm</span>, </span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Mode'</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>, </span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>'graph'</span><span
+class=GramE><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:
+104%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%
+Evaluate the Decision Tree <span class=SpellE>Regreesion</span> Training Model,
+metrics:</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>dtmPredTrain</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=GramE>predict(</span><span class=SpellE>dtm</span>, Train<span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>dtmTrainMAE</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=GramE>mean(abs(</span><span class=SpellE>yTrain</span> - <span
+class=SpellE>dtmPredTrain</span>)<span class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>dtmTrainRMSE</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=GramE>sqrt(mean(</span>(<span class=SpellE>yTrain</span> - <span
+class=SpellE>dtmPredTrain</span><span class=GramE>).^</span>2)<span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:108.75pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=SpellE>dtmTrain_SSres</span> = <span
+class=GramE>sum(</span>(<span class=SpellE>yTrain</span> - <span class=SpellE>dtmPredTrain</span><span
+class=GramE>).^</span>2); <span class=SpellE>dtmTrain_SStot</span> = <span
+class=GramE>sum(</span>(<span class=SpellE>yTrain</span> - mean(<span
+class=SpellE>yTrain</span>)<span class=GramE>).^</span>2); <span class=SpellE>dtmTrainRSquared</span>
+= 1 - (<span class=SpellE>dtmTrain_SSres</span> / <span class=SpellE>dtmTrain_SStot</span><span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Plot residuals</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>residuals = <span
+class=SpellE>yTrain</span> - <span class=SpellE><span class=GramE>dtmPredTrain</span></span><span
+class=GramE>;</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:361.85pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=GramE>figure;</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:139.75pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>scatter(</span></span><span
+class=SpellE><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:
+104%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>dtmPredTrain</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>,
+residuals); <span class=SpellE><span class=GramE>xlabel</span></span><span
+class=GramE>(</span></span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Predicted Train Values'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>ylabel</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Residuals'</span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>title(</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(<span class=SpellE>dtm</span>)Residuals
+vs Predicted Train Values'</span><span class=GramE><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:206.75pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Adding horizontal line at zero:</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> hold </span><span class=GramE><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>on</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>;</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>plot([min(<span
+class=SpellE>dtmPredTrain</span>), max(<span class=SpellE>dtmPredTrain</span>)],
+[0, 0], </span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'k--'</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>); hold </span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>off</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>;</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%
+Evaluate the Decision Tree Test model, metrics.</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>dtmPredTest</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=GramE>predict(</span><span class=SpellE>dtm</span>, Test<span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>dtmTestMAE</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=GramE>mean(abs(</span><span class=SpellE>yTest</span> - <span
+class=SpellE>dtmPredTest</span>)<span class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:139.65pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=SpellE>dtmTestRMSE</span> = <span
+class=GramE>sqrt(mean(</span>(<span class=SpellE>yTest</span> - <span
+class=SpellE>dtmPredTest</span><span class=GramE>).^</span>2)<span class=GramE>);</span>
+</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:124.35pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=SpellE>dtmTest_SSres</span> = <span
+class=GramE>sum(</span>(<span class=SpellE>yTest</span> - <span class=SpellE>dtmPredTest</span><span
+class=GramE>).^</span>2); <span class=SpellE>dtmTest_SStot</span> = <span
+class=GramE>sum(</span>(<span class=SpellE>yTest</span> - mean(<span
+class=SpellE>yTest</span>)<span class=GramE>).^</span>2); <span class=SpellE>dtmTestRSquared</span>
+= 1 - (<span class=SpellE>dtmTest_SSres</span> / <span class=SpellE>dtmTest_SStot</span><span
+class=GramE>);</span><span style='mso-spacerun:yes'>  </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Plot residuals</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>residuals = <span
+class=SpellE>yTest</span> - <span class=SpellE><span class=GramE>dtmPredTest</span></span><span
+class=GramE>;</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:361.85pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span><span class=GramE>figure;</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:144.9pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>scatter(</span></span><span
+class=SpellE><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:
+104%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>dtmPredTest</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>,
+residuals); <span class=SpellE><span class=GramE>xlabel</span></span><span
+class=GramE>(</span></span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Predicted Test Values'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>ylabel</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Residuals'</span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>title(</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(<span class=SpellE>dtm</span>)Residuals
+vs Predicted Test Values'</span><span class=GramE><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Adding horizontal line at zero:</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>hold </span><span
+class=GramE><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:
+104%;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+color:#A709F5'>on</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>;</span></span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>plot([min(<span
+class=SpellE>dtmPredTest</span>), max(<span class=SpellE>dtmPredTest</span>)],
+[0, 0], </span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'k--'</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>); hold </span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>off</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>;</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span style='mso-spacerun:yes'> 
+</span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.15pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#008013'>%% Decision Tree Print
+Results:</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;===============================================\n&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>&quot;===============================================\n&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>&quot;Decision Tree Model, Train Vs Test
+Results:\n&quot;</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;-----------------------------------------------\n&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'(Train) Mean Absolute Error: %.3f\n'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, <span
+class=SpellE>dtmTrainMAE</span>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(Test)
+Mean Absolute Error: %.3f\n'</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>, <span class=SpellE>dtmTestMAE</span>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;-----------------------------------------------\n&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'(Train) Root Mean Squared Error: %.3f\n'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, <span
+class=SpellE>dtmTrainRMSE</span>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(Test)
+Root Mean Squared Error: %.3f\n'</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>, <span class=SpellE>dtmTestRMSE</span>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>&quot;-----------------------------------------------\n&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>); <span
+class=SpellE>fprintf</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'(Train) R-squared: %.3f\n'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, <span
+class=SpellE>dtmTrainRSquared</span>); <span class=SpellE>fprintf</span>(</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'(Test)
+R-squared: %.3f\n'</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>, <span class=SpellE>dtmTestRSquared</span>);<span
+style='mso-spacerun:yes'>  </span></span></p>
+
+<p class=MsoNormal style='margin-bottom:8.3pt'><span style='font-size:10.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-bottom:8.15pt'><span style='font-size:10.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:10.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:-22.5pt;margin-bottom:
+9.5pt;margin-left:-1.3pt'><!--[if mso & !supportInlineShapes & supportFields]><span
+style='mso-element:field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'> </span>SHAPE <span
+style='mso-spacerun:yes'> </span>\* MERGEFORMAT <span style='mso-element:field-separator'></span><![endif]--><!--[if gte vml 1]><v:group
+ id="Group_x0020_4884" o:spid="_x0000_s1026" style='width:426.95pt;height:6.1pt;
+ mso-position-horizontal-relative:char;mso-position-vertical-relative:line'
+ coordsize="54223,777" o:gfxdata="UEsDBBQABgAIAAAAIQC2gziS/gAAAOEBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbJSRQU7DMBBF
+90jcwfIWJU67QAgl6YK0S0CoHGBkTxKLZGx5TGhvj5O2G0SRWNoz/78nu9wcxkFMGNg6quQqL6RA
+0s5Y6ir5vt9lD1JwBDIwOMJKHpHlpr69KfdHjyxSmriSfYz+USnWPY7AufNIadK6MEJMx9ApD/oD
+OlTrorhX2lFEilmcO2RdNtjC5xDF9pCuTyYBB5bi6bQ4syoJ3g9WQ0ymaiLzg5KdCXlKLjvcW893
+SUOqXwnz5DrgnHtJTxOsQfEKIT7DmDSUCaxw7Rqn8787ZsmRM9e2VmPeBN4uqYvTtW7jvijg9N/y
+JsXecLq0q+WD6m8AAAD//wMAUEsDBBQABgAIAAAAIQA4/SH/1gAAAJQBAAALAAAAX3JlbHMvLnJl
+bHOkkMFqwzAMhu+DvYPRfXGawxijTi+j0GvpHsDYimMaW0Yy2fr2M4PBMnrbUb/Q94l/f/hMi1qR
+JVI2sOt6UJgd+ZiDgffL8ekFlFSbvV0oo4EbChzGx4f9GRdb25HMsYhqlCwG5lrLq9biZkxWOiqY
+22YiTra2kYMu1l1tQD30/bPm3wwYN0x18gb45AdQl1tp5j/sFB2T0FQ7R0nTNEV3j6o9feQzro1i
+OWA14Fm+Q8a1a8+Bvu/d/dMb2JY5uiPbhG/ktn4cqGU/er3pcvwCAAD//wMAUEsDBBQABgAIAAAA
+IQCl/KsuAQMAAG0NAAAOAAAAZHJzL2Uyb0RvYy54bWzsV91O2zAUvp+0d4hyP5IGSmlEy8XYuJk2
+NNgDGMf5kRzbsk3Tvv2OT+LUbQFVTAJpIhexY5/fz+c7SS6v1i2PVkybRopFPDlJ44gJKotGVIv4
+z/33LxdxZCwRBeFSsEW8YSa+Wn7+dNmpnGWylrxgOgIjwuSdWsS1tSpPEkNr1hJzIhUTsFlK3RIL
+j7pKCk06sN7yJEvT86STulBaUmYMrF73m/ES7Zclo/ZXWRpmI76IITaLd433B3dPlpckrzRRdUOH
+MMgromhJI8DpaOqaWBI96ubAVNtQLY0s7QmVbSLLsqEMc4BsJuleNjdaPirMpcq7So0wAbR7OL3a
+LP25utHqTt1qQKJTFWCBTy6XdalbN0KU0Roh24yQsbWNKCxOz7LsdJ7FEYW92WyWnfWQ0hpwP9Ci
+9bcX9RLvNNkJpVNQHGabv/m3/O9qohjCanLI/1ZHTQGZzOezOBKkhSpFiQhXEBaUG0EyuQG8nkXo
+fDo9zXoUnkRpkk0AMLA7Zkty+mjsDZMIN1n9MLavy8LPSO1ndC38VEN1v1jXilin5yJ106gLzqsG
+tmIgbreVK3YvUc7uHRoEud3lIpQaz96XBch6CT8qtBdKhul7KT/20sBTsHisHHJ49AwTlyqCO6YP
+iyHAXDgkwAsl0HFKTixSt20stCLetM73LE23hsGaK8H+1HFmN5w5uLj4zUooH6SHWzC6evjKdbQi
+ruHghcYJVzUZVoezH0QxVLTj9MuG89HkBFWfMtlXzyDs9Bj2ulEz7TXpEE3f8KBtQNK+7QEooxJ6
+lsKO+gKaNYYZZOumD7LYYKtAQICTrmm8DTnhRbJHzgsXoXMPJD6WnNl0nqIeZP9UKxr3AR7f/8La
+eTNy9oG4g9nSL6SHr87t7i6JQsp5WS/hx0Nyhul7KT+G3o+V2/X8Qc6wU/xP5JwfkHP+CnJitTxD
+zMnpbHI+dM53JWYfyFsTM0zfE9KPITGPlfsg5vu+NfEDF77p8e0//H+4n4bwGT87tn9Jy78AAAD/
+/wMAUEsDBBQABgAIAAAAIQAEW1DF2wAAAAQBAAAPAAAAZHJzL2Rvd25yZXYueG1sTI9BS8NAEIXv
+gv9hGcGb3SSlUmM2pRT1VARbQbxNk2kSmp0N2W2S/ntHL/XyYHiP977JVpNt1UC9bxwbiGcRKOLC
+lQ1XBj73rw9LUD4gl9g6JgMX8rDKb28yTEs38gcNu1ApKWGfooE6hC7V2hc1WfQz1xGLd3S9xSBn
+X+myx1HKbauTKHrUFhuWhRo72tRUnHZna+BtxHE9j1+G7em4uXzvF+9f25iMub+b1s+gAk3hGoZf
+fEGHXJgO7sylV60BeST8qXjLxfwJ1EFCSQI6z/R/+PwHAAD//wMAUEsBAi0AFAAGAAgAAAAhALaD
+OJL+AAAA4QEAABMAAAAAAAAAAAAAAAAAAAAAAFtDb250ZW50X1R5cGVzXS54bWxQSwECLQAUAAYA
+CAAAACEAOP0h/9YAAACUAQAACwAAAAAAAAAAAAAAAAAvAQAAX3JlbHMvLnJlbHNQSwECLQAUAAYA
+CAAAACEApfyrLgEDAABtDQAADgAAAAAAAAAAAAAAAAAuAgAAZHJzL2Uyb0RvYy54bWxQSwECLQAU
+AAYACAAAACEABFtQxdsAAAAEAQAADwAAAAAAAAAAAAAAAABbBQAAZHJzL2Rvd25yZXYueG1sUEsF
+BgAAAAAEAAQA8wAAAGMGAAAAAA==
+">
+ <v:shape id="Shape_x0020_5997" o:spid="_x0000_s1027" style='position:absolute;
+  top:655;width:54223;height:122;visibility:visible;mso-wrap-style:square;
+  v-text-anchor:top' coordsize="5422392,12192" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQCEEzXAxgAAAN0AAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9Li8JA
+EITvgv9haGFvOnHBR6KjLKsLHjz4Yh+3JtMmcTM9ITNq/PeOIHgsquorajpvTCkuVLvCsoJ+LwJB
+nFpdcKbgsP/qjkE4j6yxtEwKbuRgPmu3pphoe+UtXXY+EwHCLkEFufdVIqVLczLoerYiDt7R1gZ9
+kHUmdY3XADelfI+ioTRYcFjIsaLPnNL/3dkokKf1ePBnl028XZzTTfT983tjVuqt03xMQHhq/Cv8
+bK+0gkEcj+DxJjwBObsDAAD//wMAUEsBAi0AFAAGAAgAAAAhANvh9svuAAAAhQEAABMAAAAAAAAA
+AAAAAAAAAAAAAFtDb250ZW50X1R5cGVzXS54bWxQSwECLQAUAAYACAAAACEAWvQsW78AAAAVAQAA
+CwAAAAAAAAAAAAAAAAAfAQAAX3JlbHMvLnJlbHNQSwECLQAUAAYACAAAACEAhBM1wMYAAADdAAAA
+DwAAAAAAAAAAAAAAAAAHAgAAZHJzL2Rvd25yZXYueG1sUEsFBgAAAAADAAMAtwAAAPoCAAAAAA==
+" path="m,l5422392,r,12192l,12192,,e" fillcolor="black" stroked="f"
+  strokeweight="0">
+  <v:stroke miterlimit="83231f" joinstyle="miter"/>
+  <v:path arrowok="t" textboxrect="0,0,5422392,12192"/>
+ </v:shape><v:shape id="Shape_x0020_5998" o:spid="_x0000_s1028" style='position:absolute;
+  top:259;width:54223;height:259;visibility:visible;mso-wrap-style:square;
+  v-text-anchor:top' coordsize="5422392,25908" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQCb4Dp8wgAAAN0AAAAPAAAAZHJzL2Rvd25yZXYueG1sRE/LisIw
+FN0P+A/hCu7GtAMWrUYRcaDMytfG3aW5tsXkpjSx7czXTxYDszyc92Y3WiN66nzjWEE6T0AQl043
+XCm4XT/flyB8QNZoHJOCb/Kw207eNphrN/CZ+kuoRAxhn6OCOoQ2l9KXNVn0c9cSR+7hOoshwq6S
+usMhhlsjP5IkkxYbjg01tnSoqXxeXlZBf/9JrqmRX4dj9spMcRrStjgpNZuO+zWIQGP4F/+5C61g
+sVrFufFNfAJy+wsAAP//AwBQSwECLQAUAAYACAAAACEA2+H2y+4AAACFAQAAEwAAAAAAAAAAAAAA
+AAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQItABQABgAIAAAAIQBa9CxbvwAAABUBAAALAAAA
+AAAAAAAAAAAAAB8BAABfcmVscy8ucmVsc1BLAQItABQABgAIAAAAIQCb4Dp8wgAAAN0AAAAPAAAA
+AAAAAAAAAAAAAAcCAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAMAAwC3AAAA9gIAAAAA
+" path="m,l5422392,r,25908l,25908,,e" fillcolor="black" stroked="f"
+  strokeweight="0">
+  <v:stroke miterlimit="83231f" joinstyle="miter"/>
+  <v:path arrowok="t" textboxrect="0,0,5422392,25908"/>
+ </v:shape><v:shape id="Shape_x0020_5999" o:spid="_x0000_s1029" style='position:absolute;
+  width:54223;height:137;visibility:visible;mso-wrap-style:square;
+  v-text-anchor:top' coordsize="5422392,13716" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQCX2Oj+xAAAAN0AAAAPAAAAZHJzL2Rvd25yZXYueG1sRI/NasMw
+EITvgb6D2EJvidRCS+xGCaHUUMgpP72vra3lxFoZSUmct48KhR6HmfmGWaxG14sLhdh51vA8UyCI
+G286bjUc9tV0DiImZIO9Z9Jwowir5cNkgaXxV97SZZdakSEcS9RgUxpKKWNjyWGc+YE4ez8+OExZ
+hlaagNcMd718UepNOuw4L1gc6MNSc9qdnYbabsInVxXXp7U6Ft9H1Z/rg9ZPj+P6HUSiMf2H/9pf
+RsNrURTw+yY/Abm8AwAA//8DAFBLAQItABQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAAAAAAAAA
+AAAAAAAAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsA
+AAAAAAAAAAAAAAAAHwEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhAJfY6P7EAAAA3QAAAA8A
+AAAAAAAAAAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAAD4AgAAAAA=
+" path="m,l5422392,r,13716l,13716,,e" fillcolor="black" stroked="f"
+  strokeweight="0">
+  <v:stroke miterlimit="83231f" joinstyle="miter"/>
+  <v:path arrowok="t" textboxrect="0,0,5422392,13716"/>
+ </v:shape><w:wrap type="none"/>
+ <w:anchorlock/>
+</v:group><![endif]--><![if !vml]><img width=570 height=8
+src="IMN431-MATLABCode%20(1)_files/image001.gif" v:shapes="Group_x0020_4884 Shape_x0020_5997 Shape_x0020_5998 Shape_x0020_5999"><![endif]><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><![endif]--><!--[if mso & !supportInlineShapes & supportFields]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:426.95pt;height:6.1pt'>
+ <v:imagedata croptop="-65520f" cropbottom="65520f"/>
+</v:shape><span style='mso-element:field-end'></span><![endif]--></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Load the data set</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>houses = <span
+class=SpellE>readtable</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'houses.csv'</span><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>);</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%<span
+style='mso-spacerun:yes'>                           </span>1st BUILD THE
+MODELS<span style='mso-spacerun:yes'>                        </span>%%</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'>  </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+For reproducibility, which means it store a random seed to get the same</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:170.5pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+results in futures <span class=SpellE>runnings</span>.</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> <span
+class=SpellE>rng</span>(</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'default'</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>) </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Partition 30/70</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>c = <span
+class=SpellE>cvpartition</span>(height(houses),</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#A709F5'>&quot;holdout&quot;</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>,0.3<span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:243.0pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Split the data</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> train = houses(training(c), :); test = houses(test(c), <span
+class=GramE>:);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:289.55pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Dependent Variable</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> y = <span class=SpellE><span class=GramE>train.SalePrice</span></span>;
+</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Independent variables, Excluding '<span class=SpellE>SalePrice</span>' and 'Id'
+</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;
+font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:.2pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=SpellE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>predictorNames</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> = <span
+class=SpellE><span class=GramE>setdiff</span></span><span class=GramE>(<span
+class=SpellE>train.Properties.VariableNames</span></span>, {</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'<span
+class=SpellE>SalePrice</span>'</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>, </span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#A709F5'>'Id'</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'>}<span class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>X = train<span
+class=GramE>{:,</span> <span class=SpellE>predictorNames</span><span
+class=GramE>};</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span class=GramE><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%<span
+style='mso-spacerun:yes'>  </span>X</span></span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:#008013'> is features matrix
+and y is the target variable</span><span style='font-size:9.5pt;mso-bidi-font-size:
+12.0pt;line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Standardize the features before applying Lasso</span><span style='font-size:
+9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>[X, mu,
+sigma] = <span class=SpellE>zscore</span>(X<span class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%%</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:10.4pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Apply Lasso regression with 7-fold cross-validation</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.5pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>[B, <span
+class=SpellE>FitInfo</span>] = <span class=GramE>lasso(</span>X, y, </span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'CV'</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>, 7<span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:165.75pt;margin-bottom:
+.05pt;margin-left:0cm;text-align:justify;text-justify:inter-ideograph;
+line-height:101%'><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:101%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#008013'>% Looking the index with the best Lambda value</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:101%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'> <span
+class=SpellE>minMSEIndex</span> = <span class=SpellE>FitInfo.IndexMinMSE</span>;
+<span class=SpellE>optimalLambda</span> = <span class=SpellE>FitInfo.Lambda</span>(<span
+class=SpellE>minMSEIndex</span><span class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:77.55pt;margin-bottom:
+.25pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Coefficients for the optimal Lambda value</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> <span class=SpellE>optimalCoefficients</span>
+= B<span class=GramE>(:,</span> <span class=SpellE>minMSEIndex</span><span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:108.65pt;margin-bottom:
+.2pt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%'><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#008013'>%
+Display the optimal Lambda and coefficients</span><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:104%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'> <span class=SpellE><span
+class=GramE>disp</span></span><span class=GramE>(</span>[</span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'Optimal
+Lambda: '</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>, num2str(<span class=SpellE>optimalLambda</span>)]); <span
+class=SpellE><span class=GramE>disp</span></span><span class=GramE>(</span></span><span
+style='font-size:9.5pt;mso-bidi-font-size:12.0pt;line-height:104%;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:#A709F5'>'Optimal
+Coefficients:'</span><span style='font-size:9.5pt;mso-bidi-font-size:12.0pt;
+line-height:104%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'>); <span class=SpellE>disp</span>(<span class=SpellE>optimalCoefficients</span><span
+class=GramE>);</span> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span style='font-size:9.5pt;
+mso-bidi-font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;text-align:justify;text-justify:
+inter-ideograph'><span style='font-size:10.5pt;mso-bidi-font-size:12.0pt;
+line-height:107%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman"'><span style='mso-spacerun:yes'> </span></span></p>
+
+</div>
+
+</body>
+
+</html>
