@@ -13,4 +13,3 @@ description: This project explores whether basic housing features can accurately
   <img src="/img/portfolio/project1.png" alt="Open PDF">
 </a>
 
-<p><a href="/projects/IMN431-MATLABCode.pdf" target="_blank">Click here to view the MATLAB project PDF</a></p>
