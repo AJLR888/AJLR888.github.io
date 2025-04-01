@@ -11,6 +11,6 @@ link: /projects/INM431-Coursework.pdf
 <h2>House Price Prediction</h2>
 
 <a href="/projects/INM431-Coursework.pdf" target="_blank">
-  <img src="/img/portfolio/house-price-prediction.png" alt="Open PDF">
+  <img src="/img/portfolio/IMDb-sentiment.png" alt="Open PDF">
 </a>
 
