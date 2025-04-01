@@ -4,7 +4,7 @@ title: "Financial Sentiment Analysis"
 date: 2024-05-01
 img: IMDb-sentiment.png
 alt: "Financial Sentiment Analysis"
-description: This code is part of a complete study using 3 models: Support Vector Machines, Multinomial Naive Bayes, and FinBERT. The work for the model FinBERT reaching outstanding levels of predictions is displayed here.
+description: This code is part of a complete study using 3 models: Support Vector Machines, Multinomial Naive Bayes, and FinBERT. 
 link: /projects/financial-sentiment-analysis.html
 ---
 
