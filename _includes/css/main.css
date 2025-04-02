@@ -80,14 +80,6 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-/*
-header {
-    text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
-}
-*/
-
 header {
     text-align: center;
     color: #fff;
@@ -111,13 +103,7 @@ header .container {
     padding-bottom: 50px;
     position: relative;
     z-index: 2;
-}
-/*
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-*/
+
 header img {
     display: block;
     margin: 0 auto 20px;
