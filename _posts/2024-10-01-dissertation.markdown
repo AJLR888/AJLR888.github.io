@@ -4,7 +4,7 @@ title: "Predicting Probability of Default. Intesectional Biases."
 date: 2024-11-05
 img: dissertation.png
 alt: "Predicting Probability of Default. Intesectional Biases. SHAP values"
-description: 
+description: This study evaluates the performance of Logistic Regression and LightGBM models in predicting loan denial, focusing on fairness and bias mitigation across various intersectional demographic groups.
 link: /projects/dissertation-LightGBM.html
 ---
 
