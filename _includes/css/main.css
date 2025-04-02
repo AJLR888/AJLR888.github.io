@@ -86,6 +86,7 @@ hr.star-primary:after {
 }
 
 header {
+    position: relative;
     text-align: center;
     color: #fff;
     background: url('/img/london.png') no-repeat center center;
