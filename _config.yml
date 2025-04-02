@@ -37,16 +37,14 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: 
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: 
-  - title: bitbucket
-    url: 
+  - title: linkedin
+    url: www.linkedin.com/in/roldananalytics
+  - title: kaggle
+    url: https://www.kaggle.com/roldananalytics
+  - title: researchgate
+    url: https://www.researchgate.net/profile/Antonio-Jose-Lopez-Roldan
   - title: github
-    url: 
+    url: https://github.com/AJLR888
 
 # Postal address (add as many lines as necessary)
 address:
