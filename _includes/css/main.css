@@ -76,6 +76,10 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+hr.star-header:after {
+  background-color: transparent;
+}
+
 .img-centered {
     margin: 0 auto;
 }
