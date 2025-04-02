@@ -2,7 +2,7 @@
 layout: post
 title: "Deep Reinforcement Learning"
 date: 2024-03-01
-img: drl.png
+img: maze.png
 alt: "Deep Reinforcement Learning"
 description: The purpose of this project is to develop and evaluate a Q-learning algorithm. We consider a robot (agent) that will navigate across a 10x10 virtual grid space, to deliver items to the designated points.
 link: /projects/drl.html
@@ -11,5 +11,5 @@ link: /projects/drl.html
 <h2>Deep Reinforcement Learning</h2>
 
 <a href="/projects/drl.html" target="_blank">
-  <img src="/img/portfolio/drl.png" alt="Open PDF">
+  <img src="/img/portfolio/maze.png" alt="Open PDF">
 </a>
