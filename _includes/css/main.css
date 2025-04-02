@@ -67,6 +67,11 @@ hr.star-light:after {
     background-color: #{{ site.color.primary }};
 }
 
+/* Only changes the star in the header, keeps all others as-is */
+hr.star-light.star-header:after {
+  background-color: transparent;
+}
+
 hr.star-primary {
     border-color: #{{ site.color.secondary }};
 }
