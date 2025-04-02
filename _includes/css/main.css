@@ -80,10 +80,19 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+/*
 header {
     text-align: center;
     color: #fff;
     background: #{{ site.color.primary }};
+}
+*/
+
+header {
+    text-align: center;
+    color: #fff;
+    background: url('/img/london.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 header .container {
