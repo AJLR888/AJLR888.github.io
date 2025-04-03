@@ -89,7 +89,7 @@ header {
     position: relative;
     text-align: center;
     color: #fff;
-    background: url('/img/london.png') no-repeat center center;
+    background: url('/img/london.jpeg') no-repeat center center;
     background-size: cover;
     min-height: 100vh; /* Ensures full screen height on all devices */
 }
