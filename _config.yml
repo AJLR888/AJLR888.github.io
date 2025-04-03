@@ -38,7 +38,7 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
-    url: www.linkedin.com/in/roldananalytics
+    url: https://www.linkedin.com/in/roldananalytics/
   - title: kaggle
     url: https://www.kaggle.com/roldananalytics
   - title: researchgate
