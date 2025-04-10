@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "HMDA 2007 New York. Data Pre-Processing"
+title: "Loan Default Preprocessing "
 date: 2025-04-01
 img: datapoints.jpg
 alt: "HMDA 2007 New York. Data Pre-Processing"
-description: Project on the way. Automating the pre-processing of over 1 million dataset records as we analyze and interrogate the data.
+description: This project is still in progress. Pre-processing over 1 million dataset records as we analyze and interrogate the data. The ultimate goal is to provide the best feature possible for model's input.
 link: /projects/hmda_ny_2007_pbDefault.html
 ---
 
