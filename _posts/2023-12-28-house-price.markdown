@@ -4,7 +4,7 @@ title: "House Price Prediction"
 date: 2023-12-28
 img: house-prediction.jpeg
 alt: "House price predictions"
-description: This project explores whether basic housing features can accurately predict property prices by comparing two fundamental machine learning approaches, Linear Regression against Decision Tree Regression.
+description: Built and compared two models using key home features. Linear Regression showed stronger, more consistent results—partly due to preprocessing that favored its assumptions.
 link: /projects/house-price.pdf
 ---
 
