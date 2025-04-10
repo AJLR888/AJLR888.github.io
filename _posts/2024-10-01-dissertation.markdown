@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Predicting Probability of Default. Intesectional Biases."
+title: "Predicting Probability of Default"
 date: 2024-11-05
 img: dissertation.jpeg
 alt: "Predicting Probability of Default. Intersectional Biases. SHAP values"
