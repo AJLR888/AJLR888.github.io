@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Loan Default Preprocessing "
+title: "Loan Default Data Preprocessing "
 date: 2025-04-01
 img: datapoints.jpg
 alt: "HMDA 2007 New York. Data Pre-Processing"
